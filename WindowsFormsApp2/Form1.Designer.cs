@@ -350,7 +350,7 @@ namespace WindowsFormsApp2
             this.fact.TabIndex = 29;
             this.fact.Text = "x!";
             this.fact.UseVisualStyleBackColor = false;
-            this.fact.Click += new System.EventHandler(this.fact_Click);
+            this.fact.Click += new System.EventHandler(this.factorial_Click);
             // 
             // standard_deviation
             // 
