@@ -19,12 +19,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = plus_toall_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void factorial_Click(object sender, EventArgs e)
         {
@@ -36,12 +32,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = factorial_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
 
         private void minus_toall_Click(object sender, EventArgs e)
@@ -54,12 +46,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = minus_toall_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void div_Click(object sender, EventArgs e)
         {
@@ -71,12 +59,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = div_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void multi_Click(object sender, EventArgs e)
         {
@@ -90,12 +74,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = multi_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void sqrt_Click(object sender, EventArgs e)
         {
@@ -106,12 +86,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = sqrt_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void standard_deviation_Click(object sender, EventArgs e)
         {
@@ -137,12 +113,8 @@ namespace WindowsFormsApp2
 
             string result = temp.ToString();
             nBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = standard_deviation_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void root_Click(object sender, EventArgs e)
         {
@@ -161,12 +133,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = root_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void log_Click(object sender, EventArgs e)
         {
@@ -180,10 +148,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = log_Click;
-            comboBox1.Items.Add(result);
+            SaveRESULT(result);
         }
         private void pow_2_Click(object sender, EventArgs e)
         {
@@ -194,12 +160,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = pow_2_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void power_n_Click(object sender, EventArgs e)
         {
@@ -213,13 +175,8 @@ namespace WindowsFormsApp2
             }
             string result = string.Join(" ", arr);
             dataBox.Text = result;
-
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
             obj = power_n_Click;
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
         private void median_Click(object sender, EventArgs e)
         {
@@ -244,12 +201,7 @@ namespace WindowsFormsApp2
             string result = temp.ToString();
             nBox.Text = result;
             obj = median_Click;
-            using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(result);
-
-            comboBox1.Items.Add(result);
-            using (StreamWriter stream = new StreamWriter(fullhistory_path, true))
-                stream.WriteLine(result);
+            SaveRESULT(result);
         }
 
         private static double Fact(int x)

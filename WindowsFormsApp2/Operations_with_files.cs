@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             new FileInfo(fullhistory_path).Delete();
 
         }
-        public void xddata()
+        public void FillInData()
         {
             using (StreamWriter stream = new StreamWriter(data_path, false))
             {
@@ -27,7 +27,7 @@ namespace WindowsFormsApp2
                     stream.Write(1 + " ");
             }
         }
-        public void PATH(string result)
+        public void SaveRESULT(string result)
         {
             using (StreamWriter stream = new StreamWriter(history_path, true))
                 stream.WriteLine(result);

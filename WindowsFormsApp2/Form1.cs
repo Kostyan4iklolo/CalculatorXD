@@ -18,14 +18,13 @@ namespace WindowsFormsApp2
         public Calculator()
         {
             InitializeComponent();
-            xddata();
+            FillInData();
             nBox.Text = "Enter N";
-
             this.Disposed += this.END;
             File.WriteAllText(history_path, "");
             File.WriteAllText(result_path, "");
             using (StreamWriter stream = new StreamWriter(history_path, true))
-                stream.WriteLine(dataBox.Text);
+                        stream.WriteLine(dataBox.Text);
             nBox.Click += nBox_Click;
         }
         delegate void Operation(object sender, EventArgs e);
