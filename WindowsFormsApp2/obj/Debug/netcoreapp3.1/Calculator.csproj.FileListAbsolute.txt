@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.exe
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.deps.json
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\bin\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.Calculator.resources
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.Properties.Resources.resources
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\User\source\repos\Calculator\WindowsFormsApp2\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache

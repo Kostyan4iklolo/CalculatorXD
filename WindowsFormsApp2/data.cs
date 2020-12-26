@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2
+namespace Calculator
 {
     public partial class Calculator : Form
     {

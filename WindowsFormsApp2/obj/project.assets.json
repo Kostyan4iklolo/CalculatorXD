@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj",
-      "projectName": "WindowsFormsApp2",
-      "projectPath": "C:\\Users\\User\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\WindowsFormsApp2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Calculator\\WindowsFormsApp2\\Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Calculator\\WindowsFormsApp2\\Calculator.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\WindowsFormsApp2\\WindowsFormsApp2\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Calculator\\WindowsFormsApp2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
